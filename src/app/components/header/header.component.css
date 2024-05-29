@@ -1,0 +1,8 @@
+header {
+  background: linear-gradient(to right, rgb(31, 42, 55) 13%, white -150%);
+}
+
+.title-text {
+  font-size: 12px; /* Adjust font size */
+  text-align: left;
+}
