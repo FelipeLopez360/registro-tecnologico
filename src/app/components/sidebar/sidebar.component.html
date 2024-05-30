@@ -1,102 +1,36 @@
-<nav class="bg-gray-800 text-white h-full p-4 space-y-4">
-
-<!--  <div class="flex items-center space-x-2 p-2">-->
-<!--    <a routerLink="/" class="block w-full p-2 rounded hover:bg-gray-700 flex items-center space-x-4" routerLinkActive="active-link">-->
-<!--      <img src="assets/home.png" alt="inicio">-->
-<!--      <span>Inicio</span>-->
-<!--    </a>-->
-<!--  </div>-->
-
-<!--  <div class="flex items-center space-x-2 p-2">-->
-<!--    <a routerLink="/tareas" class="block w-full p-2 rounded hover:bg-gray-700 flex items-center space-x-4" routerLinkActive="active-link">-->
-<!--      <img src="assets/tasks.png" alt="tareas">-->
-<!--      <span>Tareas</span>-->
-<!--    </a>-->
-<!--  </div>-->
-
-<!--  <div class="flex items-center space-x-2 p-2">-->
-<!--    <a routerLink="/equipos" class="block w-full p-2 rounded hover:bg-gray-700 flex items-center space-x-4" routerLinkActive="active-link">-->
-<!--      <img src="assets/computers.png" alt="equipos">-->
-<!--      <span>Equipos</span>-->
-<!--    </a>-->
-<!--  </div>-->
-
-<!--  <div class="flex items-center space-x-2 p-2">-->
-<!--    <a routerLink="/mantenimientos" class="block w-full p-2 rounded hover:bg-gray-700 flex items-center space-x-4" routerLinkActive="active-link">-->
-<!--      <img src="assets/maintenance.png" alt="mantenimientos">-->
-<!--      <span>Mantenimientos</span>-->
-<!--    </a>-->
-<!--  </div>-->
-
-<!--  <div class="flex items-center space-x-2 p-2">-->
-<!--    <a routerLink="/inventario" class="block w-full p-2 rounded hover:bg-gray-700 flex items-center space-x-4" routerLinkActive="active-link">-->
-<!--      <img src="assets/inventory.png" alt="inventario">-->
-<!--      <span>Inventario</span>-->
-<!--    </a>-->
-<!--  </div>-->
-
-<!--  <div class="flex items-center space-x-2 p-2">-->
-<!--    <a routerLink="/informes" class="block w-full p-2 rounded hover:bg-gray-700 flex items-center space-x-4" routerLinkActive="active-link">-->
-<!--      <img src="assets/reports.png" alt="informes">-->
-<!--      <span>Informes</span>-->
-<!--    </a>-->
-<!--  </div>-->
-
-</nav>
-
-<!--ubicacion del container de inicio -->
-<div class="inicio-container">
-  <a routerLink="/" class="inicio block w-full p-2 rounded hover:bg-gray-700 flex items-center text-white space-x-4" routerLinkActive="active-link">
-    <img src="assets/home.png" alt="inicio">
-    <span>Inicio</span>
-  </a>
-</div>
-
-<!--ubicacion del container de tareas -->
-<div class="tareas-container">
-  <a routerLink="/tareas" class="tareas block w-full p-2 rounded hover:bg-gray-700 flex items-center text-white space-x-4" routerLinkActive="active-link">
-    <img src="assets/tasks.png" alt="tareas">
-    <span>Tareas</span>
-  </a>
-</div>
-
-<!--ubicacion del container de equipos -->
-<div class="equipos-container">
-  <a routerLink="/equipos" class="equipos block w-full p-2 rounded hover:bg-gray-700 flex items-center text-white space-x-4" routerLinkActive="active-link">
-    <img src="assets/computers.png" alt="equipos">
-    <span>Equipos</span>
-  </a>
-</div>
-
-<!--ubicacion del container de mantenimientos -->
-<div class="mantenimientos-container">
-  <a routerLink="/mantenimientos" class="mantenimientos block w-full p-2 rounded hover:bg-gray-700 flex items-center text-white space-x-4" routerLinkActive="active-link">
-    <img src="assets/maintenance.png" alt="mantenimientos">
-    <span>Mantenimientos</span>
-  </a>
-</div>
-
-<!--ubicacion del container de inventario -->
-<div class="inventario-container">
-  <a routerLink="/inventario" class="inventario block w-full p-2 rounded hover:bg-gray-700 flex items-center text-white space-x-4" routerLinkActive="active-link">
-    <img src="assets/inventory.png" alt="inventario">
-    <span>Inventario</span>
-  </a>
-</div>
-
-<!--ubicacion del container de informes -->
-<div class="informes-container">
-  <a routerLink="/informes" class="informes block w-full p-2 rounded hover:bg-gray-700 flex items-center text-white space-x-4" routerLinkActive="active-link">
-    <img src="assets/reports.png" alt="informes">
-    <span>Informes</span>
-  </a>
+<div class="sidebar">
+  <nav class="menu">
+    <a routerLink="/inicio" routerLinkActive="active-link" class="menu-item">
+      <img src="assets/home.png" alt="Inicio">
+      <span>Inicio</span>
+    </a>
+    <a routerLink="/tareas" routerLinkActive="active-link" class="menu-item">
+      <img src="assets/tasks.png" alt="Tareas">
+      <span>Tareas</span>
+    </a>
+    <a routerLink="/equipos" routerLinkActive="active-link" class="menu-item">
+      <img src="assets/computers.png" alt="Equipos">
+      <span>Equipos</span>
+    </a>
+    <a routerLink="/mantenimientos" routerLinkActive="active-link" class="menu-item">
+      <img src="assets/maintenance.png" alt="Mantenimientos">
+      <span>Mantenimientos</span>
+    </a>
+    <a routerLink="/inventario" routerLinkActive="active-link" class="menu-item">
+      <img src="assets/inventory.png" alt="Inventario">
+      <span>Inventario</span>
+    </a>
+    <a routerLink="/informes" routerLinkActive="active-link" class="menu-item">
+      <img src="assets/reports.png" alt="Informes">
+      <span>Informes</span>
+    </a>
+  </nav>
+  <div class="profile">
+    <a routerLink="/perfil" routerLinkActive="active-link" class="menu-item">
+      <img src="assets/profile.png" alt="Perfil">
+      <span>Perfil</span>
+    </a>
+  </div>
 </div>
 
 
-<!--ubicacion del container del perfil -->
-<div class="perfil-container">
-  <a routerLink="/perfil" class="perfil block w-full p-2 rounded hover:bg-gray-700 flex items-center text-white space-x-4" routerLinkActive="active-link">
-    <img src="assets/profile.png" alt="perfil">
-    <span>Perfil</span>
-  </a>
-</div>

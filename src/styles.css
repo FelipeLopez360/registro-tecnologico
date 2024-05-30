@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .header-content {
+    flex-direction: column;
+  }
+}
+

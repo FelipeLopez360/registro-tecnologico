@@ -7,6 +7,12 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
+import { TareasComponent } from './pages/tareas/tareas.component';
+import { EquiposComponent } from './pages/equipos/equipos.component';
+import { MantenimientosComponent } from './pages/mantenimientos/mantenimientos.component';
+import { InventarioComponent } from './pages/inventario/inventario.component';
+import { InformesComponent } from './pages/informes/informes.component';
+import { PerfilComponent } from './pages/perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +20,13 @@ import { HomeComponent } from './pages/home/home.component';
     SidebarComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    TareasComponent,
+    EquiposComponent,
+    MantenimientosComponent,
+    InventarioComponent,
+    InformesComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,

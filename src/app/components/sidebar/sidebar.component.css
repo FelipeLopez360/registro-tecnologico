@@ -1,96 +1,43 @@
-/* container de inicio */
-
-.inicio-container {
-  position: relative;
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 87vh;
+  width: 300px;
+  background-color: rgba(31, 42, 55);
+  color: white;
 }
 
-.inicio-container .inicio {
-  position: absolute;
-  bottom: 750px; /* Ajusta este valor según tu preferencia */
-  left: 75px;
-  padding: 20px;
+.menu {
+  flex-grow: 1;
 }
 
-/* container de tareas */
-
-.tareas-container {
-  position: relative;
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
 }
 
-.tareas-container .tareas {
-  position: absolute;
-  bottom: 675px; /* Ajusta este valor según tu preferencia */
-  left: 0;
-  padding: 20px;
+.menu-item img {
+  margin-right: 10px;
 }
 
-/* container de equipos */
-.equipos-container {
-  position: relative;
+.menu-item:hover,
+.menu-item.active-link {
+  background-color: #1e5f9d;
 }
 
-.equipos-container .equipos {
-  position: absolute;
-  bottom: 600px; /* Ajusta este valor según tu preferencia */
-  left: 0;
-  padding: 20px;
+.profile {
+  margin-bottom: 10px;
+  padding: 0px;
 }
-
-/* container de mantenimientos */
-.mantenimientos-container {
-  position: relative;
-}
-
-.mantenimientos-container .mantenimientos {
-  position: absolute;
-  bottom: 525px; /* Ajusta este valor según tu preferencia */
-  left: 0;
-  padding: 20px;
-}
-
-/* container de inventario */
-.inventario-container {
-  position: relative;
-}
-
-.inventario-container .inventario {
-  position: absolute;
-  bottom: 450px; /* Ajusta este valor según tu preferencia */
-  left: 0;
-  padding: 20px;
-}
-
-/* container de informes */
-
-.informes-container {
-  position: relative;
-}
-
-.informes-container .informes {
-  position: absolute;
-  bottom: 375px; /* Cambia este valor para mover el elemento hacia arriba o hacia abajo */
-  left: 0;
-  padding: 20px;
-}
-
-/* container de perfil */
-
-.perfil-container {
-  position: relative;
-}
-
-.perfil-container .perfil {
-  position: absolute;
-  bottom: 0%; /* Ajusta este valor según tu preferencia */
-  left: 0;
-  padding: 20px;
-}
-
 
 .active-link {
   background-color: #4299e1; /* Cambia el color de fondo cuando está activo */
-  padding: 0.5rem 5rem; /* Ajusta el relleno para cambiar el tamaño del área activa */
+  padding: 1.5rem 7rem; /* Ajusta el relleno para cambiar el tamaño del área activa */
   border-radius: 0.5rem; /* Ajusta el radio de las esquinas para hacerlo más redondeado */
   margin: -0.5rem -5rem; /* Compensa el padding adicional para que el texto no se mueva */
 }
+
 
